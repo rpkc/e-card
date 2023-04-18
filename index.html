@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>TathyaGraph</title>
     <style>
         html,body{
@@ -39,7 +40,7 @@
             margin-bottom: 5px;
         }
         span.sub{font-family: sans-serif;}
-        span.violet{color: #0B6623;}
+        span.violet{color: rgb(56, 56, 204);}
 
         ul.links{
             list-style-type: none;
@@ -55,16 +56,31 @@
             color: #043927;
             font-family: sans-serif;
             width: 50%;
+            display: block;
             
         }
 
-        ul.links a li{border: 1px solid #043927;padding: 18px;margin-top: 10px;border-radius: 5px;background-color: white; width: 50%;}
+        ul.links a li{border: 1px solid #043927;padding: 18px;margin-top: 10px;border-radius: 5px;background-color: white; width: 100%;}
 
         ul.links>a:hover>li{
             background-color:#0B6623;
             color: white;
         }
 
+        ul.links a:nth-child(5){width: 50px;}
+        ul.links a:nth-child(5) li{
+            border-radius: 50%;
+            height: 50px;
+            width: 50px;
+            margin-top: 30px;
+            line-height: 50px;
+            font-size: 50px;
+            color:#0B6623;
+            border-color: none;
+            border-width: 3px;
+            border-color: #0B6623;
+        }
+        ul.links a:nth-child(5) li:hover{color: white;}
 
 
 
@@ -78,17 +94,20 @@
             <span class="sub">Data Extraction & Archival services</span>
             <!-- <div class="links"> -->
                 <ul class="links">
-                    <a href="">
-                        <li>Whatsapp</li>
+                    <a target="_blank" href="https://wa.me/918017358903?text=Hello">
+                        <li><i class="fa fa-whatsapp" aria-hidden="true"></i> Whatsapp</li>
                     </a>
-                    <a href="">
-                        <li>Website</li>
+                    <a target="_blank" href="https://data.info.in">
+                        <li><i class="fa fa-globe" aria-hidden="true"></i> Website</li>
                     </a>
-                    <a href="">
-                        <li>Email</li>
+                    <a href="mailto:tathyagraph@gmail.com">
+                        <li><i class="fa fa-envelope" aria-hidden="true"></i> Email</li>
                     </a>
-                    <a href="">
-                        <li>Github</li>
+                    <a target="_blank" href="https://github.com/tathyagraph">
+                        <li><i class="fa fa-github" aria-hidden="true"></i> Projects</li>
+                    </a>
+                    <a href="tel:+917980364029">
+                        <li><i class="fa fa-phone" aria-hidden="true"></i></li>
                     </a>
                 </ul>
             <!-- </div> -->
